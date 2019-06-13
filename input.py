@@ -62,7 +62,7 @@ def open():
 
 name_date = {}
 name_number = {}
-workbook = xlrd.open_workbook(r'D:\\python_work_space\\auto_input\\excel.xls')
+workbook = xlrd.open_workbook(r'.\\excel.xls')
 sheet = workbook.sheet_by_index(0)
 rows = sheet.nrows
 
